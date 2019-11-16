@@ -1,4 +1,18 @@
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+If you want to run this application, please modify the following part:
+
+
+// Step #2, The connector
+const connector = new AppSearchAPIConnector({
+  searchKey: "[YOUR_SEARCH_KEY]",
+  engineName: "video-games",
+  hostIdentifier: "YOUR_HOST_IDENTIFIER"
+});
+
+Fill in the searchKey and hostIndentifier of your own.
+
 
 ## Available Scripts
 
